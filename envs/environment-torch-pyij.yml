@@ -1,4 +1,4 @@
-name: test
+name: bio-core-torch-pyij
 channels:
   - conda-forge
   - pytorch
