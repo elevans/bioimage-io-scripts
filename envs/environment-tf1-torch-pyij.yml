@@ -1,0 +1,16 @@
+name: bio-core-tf1-torch
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+ - bioimageio.core
+ - python >=3.7,<3.8
+ - tensorflow >1.14,<2.0
+ - tifffile <=2022.4.8
+ - keras
+ - pytorch
+ - torchvision
+ - cpuonly
+ - pyimagej
+ - openjdk=8
