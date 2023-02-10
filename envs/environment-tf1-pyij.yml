@@ -1,0 +1,12 @@
+name: bio-core-tf1-pyij
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bioimageio.core
+  - python >=3.7,<3.8
+  - tensorflow >1.14,<2.0
+  - tifffile <=2022.4.8
+  - keras
+  - pyimagej
+  - openjdk=8

@@ -1,0 +1,12 @@
+name: test
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - bioimageio.core
+  - pytorch
+  - torchvision
+  - cpuonly
+  - pyimagej
+  - openjdk=8
